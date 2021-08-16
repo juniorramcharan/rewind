@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 :root{
     --primary-color: #1d5888;
     --secondary-color: #ff993b;
@@ -43,8 +43,9 @@ main>.container {
     width: 100% ;
 }
 .img-text{
-    font-size: 40px;
-    font-family: 'Faster One', cursive;
+    font-size: 3em;
+    font-family:'Anton', sans-serif;
+    color: red;
 }
 .jsicon{
     color: rgb(226,211,4)
