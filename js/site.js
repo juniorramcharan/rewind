@@ -1,25 +1,11 @@
 //get values from the interface
-function getValues(){
-    //get values from the page
-        let startValue = document.getElementById('startValue').value;
-        let endValue = document.getElementById('endValue').value;
-        alert("the start value: " + startValue);
+function reverseString(stringValue){
 
-    //call generate numbers
-
-
-    //call display numbers
-
-}
-//gererate numbers from start value to end value
-function generateNumbers(start, end){
-
-    for(let i=start; i<=end; i++){
-        
+    let stringValues = document.getElementById("stringValue").value;
+    let result =[];
+   for (let index = stringValues.length-1; index >= 0;  index--) {
+      
+       result += stringValues[index];
     }
-}
-
-//display numbers and mark even numbers bold
-function displayNumbers(){
-
+    return result;
 }
